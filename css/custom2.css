@@ -1,0 +1,141 @@
+
+
+/*=======================================================
+  second-content inner design start
+   ===============================================*/
+.second-content{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(203, 232, 211);
+    position: relative;
+    margin: 0; 
+}
+
+.nav-content {
+    display: flex;
+    padding: 5px;
+    position: relative;
+}
+
+.text-header h3{
+    margin-right: 10px;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.live-content {
+    margin-top: 10% ;
+}
+.live-content img, p{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.live-content img{
+    width: 150px;
+    height: 150px;
+}
+/*=======================================================
+  second-content inner design end
+   ===============================================*/
+
+
+
+/*=======================================================
+  third-content inner design start
+   ===============================================*/
+   .third-content{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(162, 161, 193);
+    position: relative;
+    margin: 0; 
+}
+
+
+/*=======================================================
+  third-content inner design end
+   ===============================================*/
+
+
+/*=======================================================
+  fourth-content inner design start
+   ===============================================*/
+   .fourth-content{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(91, 185, 64);
+    position: relative;
+    margin: 0; 
+}
+
+
+/*=======================================================
+  fourth-content inner design end
+   ===============================================*/
+
+
+
+
+/*=======================================================
+ firft-content inner design start
+   ===============================================*/
+   .fifth-content{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(154, 193, 103);
+    position: relative;
+    margin: 0; 
+}
+/*=======================================================
+fifth-content inner design end
+   ===============================================*/
+
+
+
+
+/*=======================================================
+  six-content inner design start
+   ===============================================*/
+   .six-content{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(174, 97, 81);
+    position: relative;
+    margin: 0; 
+}
+/*=======================================================
+  six-content inner design end
+   ===============================================*/
+
+/*=======================================================
+  seventh-content inner design start
+   ===============================================*/
+   .seventh-content{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(62, 35, 105);
+    position: relative;
+    margin: 0; 
+}
+/*=======================================================
+  seventh-content inner design end
+   ===============================================*/
+
+
+/*=======================================================
+  eigth-content inner design start
+   ===============================================*/
+   .eight-content{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(91, 71, 158);
+    position: relative;
+    margin: 0; 
+}
+/*=======================================================
+  eigth-content inner design end
+   ===============================================*/

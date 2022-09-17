@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  }
+  
+  .nav {
+    height: 50px;
+    width: 100%;
+    background-color: #1177ca;
+    position: relative;
+  }
+
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 550;
+  }
+
+  .nav > .nav-links {
+    font-size: 18px;
+    display: inline;
+    float: right;
+
+  }
+  .nav > .nav-links > ul li a{
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    display: block;
+    padding: 0 8px;
+    text-decoration: none;
+
+  }
+  .nav > .nav-links > ul{
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin-top: 5px;
+    
+  }
+  .nav > .nav-links > ul li{
+    display: inline-block;
+    background-color: #1177ca;
+    
+    
+  }
+  .nav > .nav-links > ul li:hover{
+      background-color: #0b65af;
+      border-radius: 5px;
+  }
+
+  .nav > .nav-btn {
+    display: none; /*Hide toggle button for desktop*/
+  }
+   .nav > #nav-check {
+    display: none;
+  }
+
+  @media (max-width:750px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      height: 50px;
+      padding: 13px;
+      display: inline-block;
+      width: 50px;
+
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      height: 10px;
+      border-top: 2px solid #eee;
+      display: block;
+      width: 25px;
+
+    }
+    .nav > .nav-links {
+      position: absolute;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      left: 0px;
+    }
+    .nav > .nav-links > ul li a {
+      display: block;
+      width: 100%;
+    }
+
+    /*   */
+
+
+    
+      .nav > .nav-links > ul li{
+        padding: 0;
+        background-color: #333;
+        display: block;
+        margin-bottom: 20px;
+         
+      }
+      .nav > .nav-links > ul li a{
+          margin-left: 40%;
+      }
+      .nav .nav-links ul a.icon{
+        margin-left: 33%;
+      }
+
+    /*   */
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
