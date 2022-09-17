@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Programs</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+	    <!----CSS3---->
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/custom2.css">
+
+        <!-----GOOGLE FONTS!----->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<!--google material icon-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+            <div class="wrapper">
+    
+    
+                <div class="body-overlay">
+    
+                </div>
+    
+    
+                    <!-------------- Sidebar  ------------>
+                <nav id="sidebar">
+                    <div class="sidebar-header">
+                        <img src="img/1.png" class="img-fluid center"/>
+                    </div>
+                    <ul class="list-unstyled components">
+                        <li  class="active">
+                            <a href="portal.html" class="dashboard"><i class="material-icons">dashboard</i><span>Dashboard</span></a>
+                        </li>
+                
+    
+                        <li class="" id="pageSubmenu1">
+                           <a href="account.html">
+                            <i class="material-icons">account_circle</i><span>Account</span></a>
+                        </li>
+                       
+                        <li class="" id="pageSubmenu2">
+                            <a href="Consultation.html">
+                            <i class="material-icons">event</i><span>Consultation</span></a>
+                        </li>
+    
+                        <li class="" id="pageSubmenu3">
+                            <a href="Programs.html">
+                            <i class="material-icons">terminal</i><span>Services</span></a>
+                        </li>
+
+                        <li class="" id="pageSubmenu4">
+                            <a href="volunteers-2.html">
+                            <i class="material-icons">group</i><span>Volunteers</span></a>
+                        </li>
+
+                        <li class="#pageSubmenu5">
+                            <a href="hotlines.html">
+                            <i class="material-icons">tty</i><span>Hotlines</span></a>
+                        </li>
+                              
+                        <li class="pageSubmenu6">
+                            <a href="insurance.html"><i class="material-icons">business_center</i><span>Insurance</span></a>
+                        </li>
+    
+                        <li class="pageSubmenu7">
+                            <a href="settings.html"><i class="material-icons">settings</i><span>Settings</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            
+            
+    
+                <!-- Page Content  -->
+                <div id="content">		
+                    <div class="top-navbar">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+    
+                                <button type="button" id="sidebarCollapse" class="d-xl-block d-lg-block d-md-mone d-none">
+                                    <span class="material-icons">arrow_back_ios</span>
+                                </button>
+                        
+                                <a class="navbar-brand" href="#"> Consultation</a>
+                        
+                                <button class="d-inline-block d-lg-none ml-auto more-button" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="material-icons">more_vert</span>
+                                </button>
+    
+                                <div class="collapse navbar-collapse d-lg-block d-xl-block d-sm-none d-md-none d-none" id="navbarSupportedContent">
+                                    <ul class="nav navbar-nav ml-auto">   
+                                        <li class="dropdown nav-item active">
+                                            <a href="#" class="nav-link" data-toggle="dropdown">
+                                                <span class="material-icons">notifications</span>
+                                                <span class="notification">4</span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#">You have 5 new messages</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Magbayad kana daw sa utang!</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Shat daw mamaya pri!</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">5 warnings in Server Console.. hala!</a>
+                                                </li>
+                                           </ul>
+                                        </li>
+    
+                                        <!--<li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <span class="material-icons">apps</span>
+                                            </a>
+                                        </li>
+    
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <span class="material-icons">person</span>
+                                            </a>
+                                        </li>-->
+                                        <!----======UNCOMMENT IF NEEDED, IF NOT JUST DELETE IT! THANKS-->
+    
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="settings.html">
+                                                <span class="material-icons">settings</span>
+                                            </a>
+                                        </li>
+    
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="log-in.html">
+                                                <span class="material-icons">logout</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+            <!--End-->
+        <!--Content Page-->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="header header-text">
+                           
+         
+                        </div>
+                        <div class="card border-0 shadow rounded overflow-hidden">
+                            <ul class="nav nav-pills nav-justified flex-column flex-sm-row rounded-0 shadow overflow-hidden bg-light mb-0" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link rounded-0 active" id="request-online" data-bs-toggle="pill" href="#pills-request" role="tab" aria-controls="pills-request" aria-selected="false">
+                                        <div class="text-center pt-1 pb-1">
+                                            <h4 class="title fw-normal mb-0">Request Consultation</h4>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link rounded-0" id="request-inquiries" data-bs-toggle="pill" href="#pills-inquiries" role="tab" aria-controls="pills-inquiries" aria-selected="false">
+                                        <div class="text-center pt-1 pb-1">
+                                            <h4 class="title fw-normal mb-0">Inquiry</h4>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content p-4" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-request" role="tabpanel" aria-labelledby="request-online">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Patient's Name <span class="text-danger">*</span></label>
+                                                    <input name="name" id="name" type="text" class="form-control" placeholder="Last Name, First Name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Date of Birth<span class="text-danger">*</span></label>
+                                                    <input name="name" id="name" type="date" class="form-control" placeholder="(MM/DD/YYYY)">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                                    <input name="email" id="email" type="email" class="form-control" placeholder="Email Address">
+                                                </div> 
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Your Phone <span class="text-danger">*</span></label>
+                                                    <input name="phone" id="phone" type="number" class="form-control" placeholder="Contact Number">
+                                                </div> 
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Have you been in close contact with a confirmed case/s of COVID-19?</label>
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" class="custom-control-input" id="yes" name="contactExampleRadios">
+                                                        <label class="custom-control-label" for="yes">Yes</label>
+                                                    </div>
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" class="custom-control-input" id="no" name="contactExampleRadios" checked>
+                                                        <label class="custom-control-label" for="no">No</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Have you been in close contact with persons in quarantine/probable
+                                                        case of COVID-19?</label>
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" class="custom-control-input" id="quarantine" name="personExampleRadios">
+                                                        <label class="custom-control-label" for="quarantine">Yes</label>
+                                                    </div>
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" class="custom-control-input" id="probable" name="personExampleRadios" checked>
+                                                        <label class="custom-control-label" for="probable">No</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Do you have the following signs and symptoms within the
+                                                        last 14 days?
+                                                        </label>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="fever" name="defaultExampleRadios">
+                                                        <label class="custom-control-label" for="fever">Fever</label>
+                                                    </div>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="cough" name="defaultExampleRadios" checked>
+                                                        <label class="custom-control-label" for="cough">Cough</label>
+                                                    </div>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="runny nose" name="defaultExampleRadios" checked>
+                                                        <label class="custom-control-label" for="runny nose">Runny Nose</label>
+                                                    </div>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="shortness" name="defaultExampleRadios" checked>
+                                                        <label class="custom-control-label" for="shortness">Shortness</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Are you fully vaccinated?</label>
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" class="custom-control-input" id="partial" name="fullExampleRadios">
+                                                        <label class="custom-control-label" for="partial">Partially Vaccinated</label>
+                                                    </div>
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" class="custom-control-input" id="full" name="fullExampleRadios" checked>
+                                                        <label class="custom-control-label" for="full">Fully Vaccinated</label>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Can you describe the signs and symptoms?
+                                                        <span class="text-danger">*</span></label>
+                                                    <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Brief details.."></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">When did you feel these symptoms?
+                                                        <span class="text-danger">*</span></label>
+                                                    <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Brief details.."></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="d-grid">
+                                                    <button type="submit" class="btn btn-primary">Book An Appointment</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="pills-inquiries" role="tabpanel" aria-labelledby="request-inquiries">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Patient's Name <span class="text-danger">*</span></label>
+                                                    <input name="name" id="name" type="text" class="form-control" placeholder="Last Name, First Name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label">Date of Birth<span class="text-danger">*</span></label>
+                                                    <input name="name" id="name" type="date" class="form-control" >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                                    <input name="email" id="email" type="email" class="form-control" placeholder="Email Address">
+                                                </div> 
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Contact Number <span class="text-danger">*</span></label>
+                                                    <input name="phone" id="phone" type="number" class="form-control" placeholder="Contact Number">
+                                                </div> 
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Inquiries <span class="text-danger">*</span></label>
+                                                    <textarea name="comments" id="comments2" rows="4" class="form-control" placeholder="Brief details..."></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="d-grid">
+                                                    <button type="submit" class="btn btn-primary">Book An Appointment</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End of Content Page-->
+        
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!--<nav class="d-flex">-----------TEMPORARY COMMENT OUT/IF NOT NEED WE CAN DELETE IT
+                                <ul class="m-0 p-0">
+                                    <li>
+                                        <a href="#">
+                                            Home
+                                        </a>
+                                    </li>
+                                     <li>
+                                        <a href="#">
+                                            Company
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Blog
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>-->
+                        </div>
+                        <div class="col-md-6">
+                            <p class="copyright d-flex justify-content-end"> © 2022 Design by 
+                                <a href="#">WD9P-Group-2</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Partners End -->
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="js/jquery-3.3.1.slim.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+            <script src="js/custom.js"></script>
+            
+            
+    
+      
+            <script>
+            $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                    $('#content').toggleClass('active');
+                });
+                
+                 $('.more-button,.body-overlay').on('click', function () {
+                    $('#sidebar,.body-overlay').toggleClass('show-nav');
+                });
+                
+            });
+            
+            </script>
+        <!--Boostrap End-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    </body>
+</html>

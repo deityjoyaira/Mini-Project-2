@@ -1,0 +1,354 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <title>Alumana PH - Dashboard</title>
+	    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style-portal.css">
+        
+	    <!----CSS3---->
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/custom2.css">
+
+        <!-----GOOGLE FONTS!----->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<!--google material icon-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  </head>
+
+
+  <body>
+        <div class="wrapper">
+
+
+            <div class="body-overlay">
+
+            </div>
+
+
+                <!-------------- Sidebar  ------------>
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <img src="img/1.png" class="img-fluid center"/>
+                </div>
+                <ul class="list-unstyled components">
+			        <li  class="active">
+                        <a href="portal.html" class="dashboard"><i class="material-icons">dashboard</i><span>Dashboard</span></a>
+                    </li>
+            
+
+                    <li class="" id="pageSubmenu1">
+                       <a href="account.html">
+					    <i class="material-icons">account_circle</i><span>Account</span></a>
+                    </li>
+                   
+                    <li class="" id="pageSubmenu2">
+                        <a href="Consultation.html">
+					    <i class="material-icons">event</i><span>Consultation</span></a>
+                    </li>
+
+                    <li class="" id="pageSubmenu3">
+                        <a href="Programs.html">
+					    <i class="material-icons">terminal</i><span>Services</span></a>
+                    </li>
+
+                    <li class="" id="pageSubmenu4">
+                        <a href="volunteers-2.html">
+					    <i class="material-icons">group</i><span>Volunteers</span></a>
+                    </li>
+                    
+				    <li class="#pageSubmenu5">
+                        <a href="hotlines.html">
+					    <i class="material-icons">tty</i><span>Hotlines</span></a>
+                    </li>
+			              
+                    <li class="pageSubmenu6">
+                        <a href="insurance.html"><i class="material-icons">business_center</i><span>Insurance</span></a>
+                    </li>
+
+                    <li class="pageSubmenu7">
+                        <a href="settings.html"><i class="material-icons">settings</i><span>Settings</span></a>
+                    </li>
+                </ul>
+            </nav>
+		
+		
+
+            <!-- Page Content  -->
+            <div id="content">		
+		        <div class="top-navbar">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+
+                            <button type="button" id="sidebarCollapse" class="d-xl-block d-lg-block d-md-mone d-none">
+                                <span class="material-icons">arrow_back_ios</span>
+                            </button>
+					
+					        <a class="navbar-brand" href="#"> Dashboard </a>
+					
+                            <button class="d-inline-block d-lg-none ml-auto more-button" type="button" data-toggle="collapse"
+					            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="material-icons">more_vert</span>
+                            </button>
+
+                            <div class="collapse navbar-collapse d-lg-block d-xl-block d-sm-none d-md-none d-none" id="navbarSupportedContent">
+                                <ul class="nav navbar-nav ml-auto">   
+                                    <li class="dropdown nav-item active">
+                                        <a href="#" class="nav-link" data-toggle="dropdown">
+                                            <span class="material-icons">notifications</span>
+								            <span class="notification">4</span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#">You have 5 new messages</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Magbayad kana daw sa utang!</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Shat daw mamaya pri!</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">5 warnings in Server Console.. hala!</a>
+                                            </li>
+                                       </ul>
+                                    </li>
+
+                                    <!--<li class="nav-item">
+                                        <a class="nav-link" href="#">
+								            <span class="material-icons">apps</span>
+								        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+								            <span class="material-icons">person</span>
+								        </a>
+                                    </li>-->
+                                    <!----======UNCOMMENT IF NEEDED, IF NOT JUST DELETE IT! THANKS-->
+
+							        <li class="nav-item">
+                                        <a class="nav-link" href="settings.html">
+								            <span class="material-icons">settings</span>
+								        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="log-in.html">
+								            <span class="material-icons">logout</span>
+								        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+	            </div>
+			
+			
+			    <div class="container main-content" >						        										
+					
+                    <div class="row" id="portal">
+                        <div class="col-lg-9 col-md-12">
+                            <div class="card">
+                               <div class="card-header card-header-text">
+                                    <h4 class="card-title" style="color: rgb(60, 60, 255);"> <b>Events and Announcements </b></h4>
+                                </div>
+                                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active" data-bs-interval="10000">
+                                        <img src="img/b1.png" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="img/b2.png" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/b3.png" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+
+                                <div class="">
+                                    <div class="card">
+                                        <div class="card-header card-header-text">
+                                             <h4 class="card-title" style="color: rgb(60, 60, 255);"> <b>Calendar </b></h4>
+                                        </div>  
+                                        
+                                        <div class="card-container">
+                                            <div class="calendar">
+                                              <div class="month">
+                                                    <i class="material-icons prev">chevron_left</i>
+                                                        <div class="date">
+                                                             <h1></h1>
+                                                            <p></p>
+                                                        </div>
+                                                    <i class="material-icons next">chevron_right</i>
+                                              </div>
+                                              <div class="weekdays">
+                                                    <div>Sun</div>
+                                                    <div>Mon</div>
+                                                    <div>Tue</div>
+                                                    <div>Wed</div>
+                                                    <div>Thu</div>
+                                                    <div>Fri</div>
+                                                    <div>Sat</div>
+                                              </div>
+                                              <div class="days">
+                                                    <div></div>
+                                              </div>
+                                            </div>
+
+                                            <div class="events">
+                                                <h1 style="color: rgb(60, 60, 255);"> <b>Events </b></h1> <br>
+                                                <ul>
+                                                    <li>April 7, 2023: World Health Day Webinar</li>
+                                                    <li>July 14, 2023: World Health Day Webinar</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                                                     
+                                    </div>                                        
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="col-lg-3 col-md-12 righ-side-bar">
+                            <div class="card" style="min-height: 100vh">
+                               <div class="card-header card-header-text">
+                                    <h4 class="card-title">Notifications</h4>
+                                </div>
+                                <div class="card-content">
+                                    <div class="streamline">
+                                        <div class="sl-item sl-primary">
+                                            <div class="sl-content">
+                                                <small class="text-muted">5 mins ago</small>
+                                                <p>Some text here!</p>
+                                            </div>
+                                        </div>
+                                        <div class="sl-item sl-danger">
+                                            <div class="sl-content">
+                                                <small class="text-muted">25 mins ago</small>
+                                                <p>Some text here!</p>
+                                            </div>
+                                        </div>
+                                        <div class="sl-item sl-success">
+                                            <div class="sl-content">
+                                                <small class="text-muted">40 mins ago</small>
+                                                <p>Some text here!</p>
+                                            </div>
+                                        </div>
+                                        <div class="sl-item">
+                                            <div class="sl-content">
+                                                <small class="text-muted">45 minutes ago</small>
+                                                <p>Some text here!</p>
+                                            </div>
+                                        </div>
+                                        <div class="sl-item sl-warning">
+                                            <div class="sl-content">
+                                                <small class="text-muted">55 mins ago</small>
+                                                <p>Some text here!</p>
+                                            </div>
+                                        </div>
+                                        <div class="sl-item">
+                                            <div class="sl-content">
+                                                <small class="text-muted">60 minutes ago</small>
+                                                <p>Some text here!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                         
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+
+                    
+                  
+			        <footer class="footer">
+                        <div class="container-fluid">
+				            <div class="row">
+				                <div class="col-md-6">
+                                    <!--<nav class="d-flex">-----------TEMPORARY COMMENT OUT/IF NOT NEED WE CAN DELETE IT
+                                        <ul class="m-0 p-0">
+                                            <li>
+                                                <a href="#">
+                                                    Home
+                                                </a>
+                                            </li>
+                                             <li>
+                                                <a href="#">
+                                                    Company
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Blog
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>-->
+                                </div>
+				                <div class="col-md-6">
+				                    <p class="copyright d-flex justify-content-end"> &copy 2022 Design by 
+                                        <a href="#">WD9P-Group-2</a>
+                                    </p>
+				                </div>
+				            </div>
+			            </div>
+                    </footer>  
+				</div>					
+            </div>
+        </div>
+  
+
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="js/custom.js"></script>
+        
+        
+
+  
+        <script>
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+				$('#content').toggleClass('active');
+            });
+			
+			 $('.more-button,.body-overlay').on('click', function () {
+                $('#sidebar,.body-overlay').toggleClass('show-nav');
+            });
+			
+        });
+        
+        </script>
+    </body>
+  </html>
+
+

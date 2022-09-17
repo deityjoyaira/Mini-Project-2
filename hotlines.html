@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Programs</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style-portal.css">
+	    <!----CSS3---->
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/custom2.css">
+
+        <!-----GOOGLE FONTS!----->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<!--google material icon-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+            <div class="wrapper">
+    
+    
+                <div class="body-overlay">
+    
+                </div>
+    
+    
+                    <!-------------- Sidebar  ------------>
+                <nav id="sidebar">
+                    <div class="sidebar-header">
+                        <img src="img/1.png" class="img-fluid center"/>
+                    </div>
+                    <ul class="list-unstyled components">
+                        <li  class="active">
+                            <a href="portal.html" class="dashboard"><i class="material-icons">dashboard</i><span>Dashboard</span></a>
+                        </li>
+                
+    
+                        <li class="" id="pageSubmenu1">
+                           <a href="account.html">
+                            <i class="material-icons">account_circle</i><span>Account</span></a>
+                        </li>
+                       
+                        <li class="" id="pageSubmenu2">
+                            <a href="Consultation.html">
+                            <i class="material-icons">event</i><span>Consultation</span></a>
+                        </li>
+    
+                        <li class="" id="pageSubmenu3">
+                            <a href="Programs.html">
+                            <i class="material-icons">terminal</i><span>Services</span></a>
+                        </li>
+
+                        <li class="" id="pageSubmenu4">
+                            <a href="volunteers-2.html">
+                            <i class="material-icons">group</i><span>Volunteers</span></a>
+                        </li>
+                        
+                        <li class="#pageSubmenu5">
+                            <a href="hotlines.html">
+                            <i class="material-icons">tty</i><span>Hotlines</span></a>
+                        </li>
+                              
+                        <li class="pageSubmenu6">
+                            <a href="insurance.html"><i class="material-icons">business_center</i><span>Insurance</span></a>
+                        </li>
+    
+                        <li class="pageSubmenu7">
+                            <a href="settings.html"><i class="material-icons">settings</i><span>Settings</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            
+            
+    
+                <!-- Page Content  -->
+                <div id="content">		
+                    <div class="top-navbar">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+    
+                                <button type="button" id="sidebarCollapse" class="d-xl-block d-lg-block d-md-mone d-none">
+                                    <span class="material-icons">arrow_back_ios</span>
+                                </button>
+                        
+                                <a class="navbar-brand" href="#"> Emergency Hotlines </a>
+                        
+                                <button class="d-inline-block d-lg-none ml-auto more-button" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="material-icons">more_vert</span>
+                                </button>
+    
+                                <div class="collapse navbar-collapse d-lg-block d-xl-block d-sm-none d-md-none d-none" id="navbarSupportedContent">
+                                    <ul class="nav navbar-nav ml-auto">   
+                                        <li class="dropdown nav-item active">
+                                            <a href="#" class="nav-link" data-toggle="dropdown">
+                                                <span class="material-icons">notifications</span>
+                                                <span class="notification">4</span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#">You have 5 new messages</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Magbayad kana daw sa utang!</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Shat daw mamaya pri!</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">5 warnings in Server Console.. hala!</a>
+                                                </li>
+                                           </ul>
+                                        </li>
+    
+                                        <!--<li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <span class="material-icons">apps</span>
+                                            </a>
+                                        </li>
+    
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <span class="material-icons">person</span>
+                                            </a>
+                                        </li>-->
+                                        <!----======UNCOMMENT IF NEEDED, IF NOT JUST DELETE IT! THANKS-->
+    
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="settings.html">
+                                                <span class="material-icons">settings</span>
+                                            </a>
+                                        </li>
+    
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="log-in.html">
+                                                <span class="material-icons">logout</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+            <!--Content-->
+            
+            <div class="hotlines">
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Agency</th>
+                        <th scope="col">Hotline</th>
+                        <th scope="col">Trunk or Direct Line</th>
+                        <th scope="col">Area</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Emergency 911 <br>
+                            National Office
+                        </td>
+                        <td>911</td>
+                        <td>(02) 925-9111 <br>
+                            (02) 928-7281 [telefax] <br>
+                            +63966-5000-299 [Globe] <br>
+                            +63932-318-0440 [Smart]</td>
+                        <td>NCR</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Bureau of Fire Protection</td>
+                        <td>-</td>
+                        <td>(02) 426-0219 <br>
+                            (02) 426-3812 <br>
+                            (02)426-0246 <br> </td>
+                        <td>NCR</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Philippine National Police </td>
+                        <td>-</td>
+                        <td>(2) 722-0650 <br>
+                            +63917-847-5757<br> </td>
+                        <td>NCR</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>DOH COVID 19 </td>
+                        <td>1555</td>
+                        <td>(02) 894-COVID (26843)</td>
+                        <td>NCR</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Telimed Management and Medgate </td>
+                        <td>-</td>
+                        <td>(02) 8424-1724</td>
+                        <td>NCR</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Globe Telehealth, Inc (KonsultaMD) </td>
+                        <td>-</td>
+                        <td>(02) 7798-8000 (free for Globe/TM users)</td>
+                        <td>PH</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>National Center for Mental Health (NCMH) Crisis  </td>
+                        <td>1553</td>
+                        <td>0966-351-4518 (Globe/TM) <br>
+                             0917-899-8727 (Globe/TM) <br>
+                            0908-639-2672 (Smart/Sun/TNT)</td>
+                        <td>PH</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Philippine Coast Guard </td>
+                        <td>-</td>
+                        <td>(02) 527-8481 <br>
+                            (02) 527-8482 <br>
+                            (02) 527-8483 <br>
+                            (02) 527-8484 <br>
+                            (02) 527-8485 <br>
+                            (02) 527-8486 <br>
+                            (02) 527-8487 <br>
+                            (02) 527-8488 <br>
+                            (02) 527-8489 <br>
+                            (02) 527-3877 <br>
+                            0917-724-3682 [Globe] <br>
+                            0918-967-4697 [Smart]</td>
+                        <td>NCR</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+            
+
+            </div>
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!--<nav class="d-flex">-----------TEMPORARY COMMENT OUT/IF NOT NEED WE CAN DELETE IT
+                                <ul class="m-0 p-0">
+                                    <li>
+                                        <a href="#">
+                                            Home
+                                        </a>
+                                    </li>
+                                     <li>
+                                        <a href="#">
+                                            Company
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Blog
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>-->
+                        </div>
+                        <div class="col-md-6">
+                            <p class="copyright d-flex justify-content-end"> © 2022 Design by 
+                                <a href="#">WD9P-Group-2</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Partners End -->
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="js/jquery-3.3.1.slim.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+            <script src="js/custom.js"></script>
+            
+            
+    
+      
+            <script>
+            $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                    $('#content').toggleClass('active');
+                });
+                
+                 $('.more-button,.body-overlay').on('click', function () {
+                    $('#sidebar,.body-overlay').toggleClass('show-nav');
+                });
+                
+            });
+            
+            </script>
+        <!--Boostrap End-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    </body>
+</html>
